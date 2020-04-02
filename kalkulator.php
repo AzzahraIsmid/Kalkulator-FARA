@@ -17,7 +17,7 @@
       }
      }
      ?>
-        <div class='kalkulator">
+          <div class="kalkulator">
         <h2 class="judul">===KALKULATOR FARA===</h2>
         
         <form method="post">
