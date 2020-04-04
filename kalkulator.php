@@ -11,9 +11,6 @@
       $bil2 = $_POST['bil2'];
       $operasi = $_POST['operasi'];
       switch ($operasi) {
-        case 'tambah';
-          $hasil = $bil1+$bil2;
-        break;
         case 'bagi';
           $hasil = $bil1/$bil2;
         break;
@@ -26,8 +23,7 @@
         <form method="post">
             <input type="text" name="bil1" class="bil" autocomplete="off" placeholder="Masukkan Bilangan Pertama">
             <input type="text" name="bil2" class="bil" autocomplete="off" placeholder="Masukkan Bilangan Kedua">
-            <select clas="opt" name="operasi">
-                <option value="tambah">+<option>
+            <select clas="opt" name="operasi"> 
                 <option value="bagi">/</option>
               </select>
             <td><input type="submit" name="hitung" value="Hitung" class="tombol"></td>
