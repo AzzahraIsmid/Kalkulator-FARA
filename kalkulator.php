@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Kalkulator Sederhana Dengan PHP </title>
+	<title>Kalkulator</title>
 	<link rel="stylesheet" type="text/css" href="edit.css">
 </head>
 <body>
@@ -27,7 +27,7 @@
 	}
 	?>
 	<div class="kalkulator">
-		<h2 class="judul">====KALKULATOR====</h2>
+		<h2 class="judul">====KALKULATOR FARA====</h2>
 	
 		<form method="post">			
 			<input type="text" name="bil1" class="bil" autocomplete="off" placeholder="Masukkan Bilangan Pertama">
