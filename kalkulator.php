@@ -12,7 +12,7 @@
       $operasi = $_POST['operasi'];
       switch ($operasi) {
         case 'bagi';
-          $hasil = $bil1/$bil2;
+          $hasil = $bil1/$bil2 ;
         break;
       }
      }
